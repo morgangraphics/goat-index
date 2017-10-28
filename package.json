@@ -1,0 +1,41 @@
+{
+  "name": "goat-index",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "8.6.0"
+  },
+  "scripts": {
+    "devstart": "nodemon ./bin/www",
+    "postinstall": "",
+    "start": "node ./bin/www",
+    "test": ""
+  },
+  "dependencies": {
+    "async": "2.5.0",
+    "body-parser": "~1.17.1",
+    "config": "^1.26.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "4.0.0",
+    "express": "~4.15.2",
+    "fs": "0.0.1-security",
+    "handlebars-extend-block": "1.0.0",
+    "hbs": "~4.0.1",
+    "hbs-utils": "0.0.4",
+    "helmet": "3.8.1",
+    "less-middleware": "~2.2.0",
+    "morgan": "~1.8.1",
+    "normalize.less": "1.0.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "4.3.0",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-config-airbnb-base": "11.3.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.1.0",
+    "nodemon": "1.12.1"
+  }
+}
