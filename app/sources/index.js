@@ -1,7 +1,7 @@
 /* app/sources/index.js */
 
 const express = require('express');
-const news = require('../news.api');
+const news = require('../components/news.api');
 
 const router = express.Router();
 // TODO Make this configurable

@@ -10,6 +10,8 @@ const hbsutils = require('hbs-utils')(hbs);
 const config = require('config');
 const helmet = require('helmet');
 
+require('dotenv').config({ path: path.join(__dirname, 'config/.env') });
+
 // Environment specific configuration stuff
 const conf = config.get(process.env.NODE_ENV || 'development');
 
@@ -18,6 +20,8 @@ const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'app/views'));
 app.set('view engine', 'hbs');
+
+app.locals = conf;
 
 
 // Partials location and monitor so I dont have to restart Node everytime I add one

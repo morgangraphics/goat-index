@@ -3,7 +3,7 @@
     "name": "MORGANGRAPHICS, INC"
   },
   "development": {
-    "newsapikey": "cb826524964e4e16b790dad71cef4257"
+    "foo": "bar"
   },
   "production": {
     "foo": "bar"

@@ -24,6 +24,7 @@
     "hbs": "~4.0.1",
     "hbs-utils": "0.0.4",
     "helmet": "3.8.1",
+    "joi": "13.0.1",
     "less-middleware": "~2.2.0",
     "morgan": "~1.8.1",
     "normalize.less": "1.0.0",
