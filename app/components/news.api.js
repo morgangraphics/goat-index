@@ -1,7 +1,6 @@
-const https = require('https');
 const async = require('async');
 const joi = require('joi');
-
+const utils = require('./utils');
 /**
 * Private Object
 * Format needed to grab news API data via AJAX
@@ -30,29 +29,6 @@ if (err) {
   throw new Error(`Config validation error: ${err.message}`);
 }
 
-
-/**
-* Private function
-* Uses native Node https function to handle AJAX requests
-* @param {object} opts - HTTP Request options
-* @param {function} callback - function that passes results back to getNews
-* @return {object} Parsed JSON object
-*/
-const _buildRequest = async (opts, callback) => {
-  await https.request(opts, (resp) => {
-    const data = [];
-    resp.setEncoding('utf8');
-    resp.on('data', (chunk) => {
-      data.push(chunk);
-    }).on('end', () => {
-      callback(null, JSON.parse(data));
-    });
-  }).on('error', (e) => {
-    console.error(`problem with request: ${e.message}`);
-    callback(null, { e });
-  }).end();
-};
-
 /**
 * getSources returns a list of news source ID's
 * @param {object} req - The Request Object
@@ -64,7 +40,7 @@ const getSources = async (req, cb) => {
     const opts = Object.assign({}, _defaults);
     opts.path = '/v1/sources';
     opts.headers['X-Api-Key'] = envVars.NEWS_API_KEY;
-    await _buildRequest(opts, cb);
+    await utils.buildRequest(opts, cb);
   } catch (e) {
     console.error(`problem with getSources: ${e.message}`);
     cb({ error: e });
@@ -86,7 +62,7 @@ const getNews = async (req, src, cb) => {
   opts.headers['X-Api-Key'] = envVars.NEWS_API_KEY;
   const iterator = (id, callback) => {
     opts.path = `/v1/articles?source=${id}`;
-    _buildRequest(opts, callback);
+    utils.buildRequest(opts, callback);
   };
   async.map(sources, iterator, (e, results) => {
     cb(results);

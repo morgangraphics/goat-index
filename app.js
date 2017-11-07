@@ -43,7 +43,6 @@ app.use(lessMiddleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require('./app/index'));
-app.use(require('./app/sources'));
 app.use(require('./app/news'));
 
 
