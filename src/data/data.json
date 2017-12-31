@@ -1,0 +1,596 @@
+{
+	"articles": [{
+			"title": "Found my goats, loose, on top of a shed",
+			"timestamp": 1513234324850,
+			"source": "reddit/r/goats",
+			"author": "John Doe",
+			"description": "Found my goats, loose, on top of a shed",
+			"images": {
+				"thumbnail": "../static/images/thumbs/small/09d3cca60175312320d831a4c0083b8947ee1ff8.jpg",
+				"full": ["../static/images/full/1513229873644-13.jpg"]
+			},
+      "stats": [{"name": "Lorem", "value": 12000}, {"name": "Ipsum", "value": 23}, {"name": "Dolor", "value": 1533}, {"name": "Sit", "value": 77}]
+		},
+		{
+			"title": "My Ode to The Kids",
+			"timestamp": 1513233934255,
+			"source": "Boston Globe",
+			"author": "Jane Doe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor venenatis quam, vitae malesuada libero porttitor eget. Morbi in pellentesque lacus, ut dignissim leo. Integer tincidunt libero non vulputate gravida. Nunc vitae massa porta, pellentesque ligula nec, ullamcorper dui. Etiam dolor quam, accumsan sit amet tincidunt vitae, fermentum blandit lorem. Nullam tristique, dolor at vestibulum faucibus, mi enim bibendum tortor, non posuere sapien ante eu ipsum. Pellentesque nec quam eu libero tincidunt dictum. Integer id ligula dignissim enim sodales ornare. Curabitur congue nisi quis nisl mattis, vitae interdum diam tristique.",
+			"concordance": ["ong the former , one was of a most monstrous size . ... This came towards us ,", "ON OF THE PSALMS . \" Touching that monstrous bulk of the whale or ork we have r", "ll over with a heathenish array of monstrous clubs and spears . Some were thick", "d as you gazed , and wondered what monstrous cannibal and savage could ever hav", "that has survived the flood ; most monstrous and most mountainous ! That Himmal", "they might scout at Moby Dick as a monstrous fable , or still worse and more de", "th of Radney .\"\" CHAPTER 55 Of the Monstrous Pictures of Whales . I shall ere l", "ing Scenes . In connexion with the monstrous pictures of whales , I am strongly", "ere to enter upon those still more monstrous stories of them which are to be fo", "ght have been rummaged out of this monstrous cabinet there is no telling . But ", "of Whale - Bones ; for Whales of a monstrous size are oftentimes cast up dead u"],
+			"images": {
+				"thumbnail": "../static/images/thumbs/small/2ae708549de95f31f8ddd99ff5c3dadfbc891f7a.jpg",
+				"full": ["../static/images/full/foo-3.jpg", "../static/images/full/1513229873644-16.jpg"]
+			},
+      "stats": [{"name": "Lorem", "value": 12000}, {"name": "Ipsum", "value": 23}, {"name": "Dolor", "value": 1533}, {"name": "Sit", "value": 77}],
+			"chartData": {
+				"sentiment": {
+					"coords": [{
+						"x": 0.65,
+						"y": "vader"
+					}, {
+						"x": 0.73,
+						"y": "naive-bayes"
+					}, {
+						"x": 0.88,
+						"y": "sentiword"
+					}, {
+						"x": 0.5,
+						"y": "senticlass"
+					}, {
+						"x": 0.23,
+						"y": "stanford"
+					}, {
+						"x": 0.92,
+						"y": "sentlex"
+					}, {
+						"x": 0.03,
+						"y": "paralleldots"
+					}]
+				},
+				"dispersion": {
+					"coords": [{
+						"x": 48,
+						"y": "whale"
+					}, {
+						"x": 64,
+						"y": "whale"
+					}, {
+						"x": 78,
+						"y": "whale"
+					}, {
+						"x": 102,
+						"y": "whale"
+					}, {
+						"x": 104,
+						"y": "whale"
+					}, {
+						"x": 144,
+						"y": "whales"
+					}, {
+						"x": 160,
+						"y": "whale"
+					}, {
+						"x": 219,
+						"y": "one"
+					}, {
+						"x": 295,
+						"y": "great"
+					}, {
+						"x": 296,
+						"y": "whales"
+					}, {
+						"x": 302,
+						"y": "one"
+					}, {
+						"x": 310,
+						"y": "great"
+					}, {
+						"x": 327,
+						"y": "great"
+					}, {
+						"x": 342,
+						"y": "sea"
+					}, {
+						"x": 358,
+						"y": "great"
+					}, {
+						"x": 368,
+						"y": "sea"
+					}, {
+						"x": 373,
+						"y": "whales"
+					}, {
+						"x": 390,
+						"y": "sea"
+					}, {
+						"x": 392,
+						"y": "great"
+					}, {
+						"x": 394,
+						"y": "whales"
+					}, {
+						"x": 396,
+						"y": "sea"
+					}, {
+						"x": 400,
+						"y": "one"
+					}, {
+						"x": 412,
+						"y": "sea"
+					}, {
+						"x": 424,
+						"y": "whales"
+					}, {
+						"x": 426,
+						"y": "great"
+					}, {
+						"x": 432,
+						"y": "whales"
+					}, {
+						"x": 441,
+						"y": "one"
+					}, {
+						"x": 464,
+						"y": "whale"
+					}, {
+						"x": 469,
+						"y": "sea"
+					}, {
+						"x": 472,
+						"y": "great"
+					}, {
+						"x": 497,
+						"y": "whale"
+					}, {
+						"x": 503,
+						"y": "great"
+					}, {
+						"x": 518,
+						"y": "whale"
+					}, {
+						"x": 531,
+						"y": "one"
+					}, {
+						"x": 532,
+						"y": "whale"
+					}, {
+						"x": 546,
+						"y": "whale"
+					}, {
+						"x": 567,
+						"y": "whale"
+					}, {
+						"x": 575,
+						"y": "whales"
+					}, {
+						"x": 613,
+						"y": "whale"
+					}, {
+						"x": 641,
+						"y": "great"
+					}, {
+						"x": 661,
+						"y": "whale"
+					}, {
+						"x": 664,
+						"y": "sea"
+					}, {
+						"x": 693,
+						"y": "sea"
+					}, {
+						"x": 696,
+						"y": "whales"
+					}, {
+						"x": 698,
+						"y": "sea"
+					}, {
+						"x": 700,
+						"y": "sea"
+					}, {
+						"x": 726,
+						"y": "whale"
+					}, {
+						"x": 751,
+						"y": "whales"
+					}, {
+						"x": 772,
+						"y": "whales"
+					}, {
+						"x": 775,
+						"y": "great"
+					}, {
+						"x": 794,
+						"y": "whale"
+					}, {
+						"x": 796,
+						"y": "whale"
+					}, {
+						"x": 806,
+						"y": "whale"
+					}, {
+						"x": 812,
+						"y": "whale"
+					}, {
+						"x": 819,
+						"y": "one"
+					}, {
+						"x": 823,
+						"y": "whale"
+					}, {
+						"x": 832,
+						"y": "whales"
+					}, {
+						"x": 839,
+						"y": "one"
+					}, {
+						"x": 843,
+						"y": "whale"
+					}, {
+						"x": 871,
+						"y": "whale"
+					}, {
+						"x": 887,
+						"y": "whales"
+					}, {
+						"x": 888,
+						"y": "sea"
+					}, {
+						"x": 899,
+						"y": "whales"
+					}, {
+						"x": 905,
+						"y": "one"
+					}, {
+						"x": 915,
+						"y": "whale"
+					}, {
+						"x": 946,
+						"y": "whale"
+					}, {
+						"x": 962,
+						"y": "whale"
+					}, {
+						"x": 978,
+						"y": "great"
+					}, {
+						"x": 988,
+						"y": "whale"
+					}, {
+						"x": 997,
+						"y": "whale"
+					}, {
+						"x": 1005,
+						"y": "whales"
+					}, {
+						"x": 1010,
+						"y": "great"
+					}, {
+						"x": 1012,
+						"y": "sea"
+					}, {
+						"x": 1041,
+						"y": "whale"
+					}, {
+						"x": 1054,
+						"y": "whale"
+					}, {
+						"x": 1068,
+						"y": "whale"
+					}, {
+						"x": 1071,
+						"y": "great"
+					}, {
+						"x": 1072,
+						"y": "whale"
+					}, {
+						"x": 1095,
+						"y": "whale"
+					}, {
+						"x": 1145,
+						"y": "whale"
+					}, {
+						"x": 1167,
+						"y": "whale"
+					}, {
+						"x": 1170,
+						"y": "one"
+					}, {
+						"x": 1172,
+						"y": "whale"
+					}, {
+						"x": 1190,
+						"y": "whale"
+					}, {
+						"x": 1194,
+						"y": "whale"
+					}, {
+						"x": 1207,
+						"y": "whales"
+					}, {
+						"x": 1212,
+						"y": "sea"
+					}, {
+						"x": 1219,
+						"y": "whale"
+					}, {
+						"x": 1265,
+						"y": "whales"
+					}, {
+						"x": 1288,
+						"y": "whale"
+					}, {
+						"x": 1296,
+						"y": "sea"
+					}, {
+						"x": 1300,
+						"y": "whale"
+					}, {
+						"x": 1307,
+						"y": "whales"
+					}, {
+						"x": 1310,
+						"y": "one"
+					}, {
+						"x": 1313,
+						"y": "sea"
+					}, {
+						"x": 1334,
+						"y": "whale"
+					}, {
+						"x": 1347,
+						"y": "whale"
+					}, {
+						"x": 1358,
+						"y": "whale"
+					}, {
+						"x": 1382,
+						"y": "whales"
+					}, {
+						"x": 1394,
+						"y": "whale"
+					}, {
+						"x": 1397,
+						"y": "whale"
+					}, {
+						"x": 1406,
+						"y": "whale"
+					}, {
+						"x": 1422,
+						"y": "one"
+					}, {
+						"x": 1434,
+						"y": "whale"
+					}, {
+						"x": 1436,
+						"y": "sea"
+					}, {
+						"x": 1446,
+						"y": "one"
+					}, {
+						"x": 1447,
+						"y": "whale"
+					}, {
+						"x": 1458,
+						"y": "whale"
+					}, {
+						"x": 1479,
+						"y": "whale"
+					}, {
+						"x": 1500,
+						"y": "great"
+					}, {
+						"x": 1511,
+						"y": "whale"
+					}, {
+						"x": 1535,
+						"y": "whale"
+					}, {
+						"x": 1539,
+						"y": "whale"
+					}, {
+						"x": 1543,
+						"y": "whale"
+					}, {
+						"x": 1546,
+						"y": "whale"
+					}, {
+						"x": 1570,
+						"y": "whale"
+					}, {
+						"x": 1603,
+						"y": "whale"
+					}, {
+						"x": 1609,
+						"y": "whales"
+					}, {
+						"x": 1641,
+						"y": "whale"
+					}, {
+						"x": 1660,
+						"y": "whale"
+					}, {
+						"x": 1697,
+						"y": "sea"
+					}, {
+						"x": 1718,
+						"y": "whale"
+					}, {
+						"x": 1724,
+						"y": "whale"
+					}, {
+						"x": 1728,
+						"y": "whale"
+					}, {
+						"x": 1756,
+						"y": "whale"
+					}, {
+						"x": 1777,
+						"y": "whale"
+					}, {
+						"x": 1790,
+						"y": "whale"
+					}, {
+						"x": 1806,
+						"y": "whale"
+					}, {
+						"x": 1859,
+						"y": "whales"
+					}, {
+						"x": 1861,
+						"y": "whale"
+					}, {
+						"x": 1869,
+						"y": "whales"
+					}, {
+						"x": 1883,
+						"y": "whale"
+					}, {
+						"x": 1899,
+						"y": "whale"
+					}, {
+						"x": 1911,
+						"y": "whale"
+					}, {
+						"x": 1913,
+						"y": "whale"
+					}, {
+						"x": 1932,
+						"y": "one"
+					}, {
+						"x": 1937,
+						"y": "whales"
+					}, {
+						"x": 1943,
+						"y": "one"
+					}, {
+						"x": 1970,
+						"y": "whale"
+					}, {
+						"x": 1980,
+						"y": "whale"
+					}, {
+						"x": 1991,
+						"y": "whale"
+					}, {
+						"x": 1997,
+						"y": "whale"
+					}, {
+						"x": 2009,
+						"y": "sea"
+					}, {
+						"x": 2010,
+						"y": "whale"
+					}, {
+						"x": 2086,
+						"y": "sea"
+					}]
+				},
+				"mentions": {
+					"coords": [{
+						"date": 1515266155,
+						"y": ["Al Jazeera", "CNN", "Wall Street Journal"]
+					}, {
+						"date": 1544123755,
+						"y": ["CNN", "USA Today"]
+					}]
+				},
+				"trending": {
+					"coords": [{
+						"date": 1512591355,
+						"y": 544
+					}, {
+						"date": 1512674155,
+						"y": 578
+					}, {
+						"date": 1513192555,
+						"y": 1000
+					}, {
+						"date": 1515266155,
+						"y": 1000
+					}, {
+						"date": 1544123755,
+						"y": 1010
+					}]
+				}
+			}
+		},
+		{
+			"title": "This guy would headbutt anyone that got too close for a selfie.",
+			"timestamp": 1513209187842,
+			"source": "Washington Post",
+			"author": "John Doe",
+      "description": "Integer et dictum elit, non volutpat felis. Mauris euismod finibus nisi eget tempus. Vivamus vitae arcu sed velit pharetra rutrum. Fusce et ligula in tortor bibendum porta. Sed rhoncus pharetra mauris commodo feugiat. Curabitur ut ligula nec justo posuere commodo id ac mi. Aenean tincidunt velit nec iaculis posuere.",
+			"images": {
+				"thumbnail": "../static/images/thumbs/small/3865dac45be166acf98229b15c061ae9e146fb9c.jpg",
+				"full": ["../static/images/full/1513229873644-2.jpg", "../static/images/full/1513229873644-5.jpg"]
+			},
+      "stats": [{"name": "Lorem", "value": 12000}, {"name": "Ipsum", "value": 23}, {"name": "Dolor", "value": 1533}, {"name": "Sit", "value": 77}],
+			"chartData": {
+				"mentions": {
+					"coords": [{
+						"date": 1515266155,
+						"y": ["Reddit", "Wall Street Journal", "Al Jazeera", "CNN", "USA Today"]
+					}, {
+						"x": 1544123755,
+						"y": ["Chicago Tribune", "New York Times"]
+					}]
+				},
+				"trending": {
+					"coords": [{
+						"date": 1512591355,
+						"y": 2
+					}, {
+						"date": 1512674155,
+						"y": 10
+					}, {
+						"date": 1513192555,
+						"y": 50
+					}, {
+						"date": 1515266155,
+						"y": 99
+					}, {
+						"date": 1544123755,
+						"y": 2000
+					}]
+				}
+			}
+		},
+		{
+			"title": "Family of goats jump over a mountain gap",
+			"timestamp": 1512629613584,
+			"source": "Ars Technica",
+			"author": "John Doe",
+      "images": {
+				"thumbnail": "../static/images/thumbs/small/f3fe96312d3eca1f208483e6e6d321d6d26a72d9.jpg"
+			}
+		},
+		{
+			"title": "Myrtle proving it\"s ok for a lady to have a little facial hair.",
+			"timestamp": 1509000848724,
+			"source": "Foo",
+			"author": "John Doe",
+      "images": {
+				"thumbnail": "../static/images/thumbs/small/4eab179ca015ce4c6c4bf73a3659683496b0c466.jpg"
+			}
+		},
+		{
+			"title": "Eevee is one of the coolest looking Nigerian Dwarf we have",
+			"timestamp": 1481698479724,
+			"source": "Aljazeera English",
+			"author": "John Doe",
+      "images": {
+				"thumbnail": "../static/images/thumbs/small/f3fe96312d3eca1f208483e6e6d321d6d26a72d9.jpg"
+			}
+		},
+		{
+			"title": "what is this goat behavior?!",
+			"timestamp": 1444114507534,
+			"source": "Aljazeera English",
+			"author": "John Doe",
+      "images": {
+				"thumbnail": "../static/images/thumbs/small/8d6581d9137a130994c0b334b095e6e593e27e48.jpg"
+			}
+		}
+	]
+}

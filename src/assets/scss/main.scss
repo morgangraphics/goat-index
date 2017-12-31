@@ -1,0 +1,294 @@
+/* ELEMENT UI OVERRIDES */
+.el-carousel__container {
+  min-height: 400px;
+  max-height: 600px;
+}
+
+.el-tabs--border-card {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.el-tabs__content,
+.el-tabs--border-card > .el-tabs__content,
+.el-table td, .el-table th {
+  padding: 0;
+}
+
+.el-tabs {
+  margin-bottom: .5em;
+}
+.el-tabs__content {
+  width:100%;
+}
+.el-tab-pane {
+  height:2em;
+  max-height: 350px;
+  min-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.el-table--border, .el-table--group {
+  border: none;
+}
+
+.el-table .cell {
+  white-space: pre;
+}
+
+//https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
+@mixin for-size($range) {
+  $phone-upper-boundary: 600px;
+  $tablet-portrait-upper-boundary: 900px;
+  $tablet-landscape-upper-boundary: 1200px;
+  $desktop-upper-boundary: 1800px;
+
+  @if $range == phone-only {
+    @media (max-width: #{$phone-upper-boundary - 1}) { @content; }
+  } @else if $range == tablet-portrait-up {
+    @media (min-width: $phone-upper-boundary) { @content; }
+  } @else if $range == tablet-landscape-up {
+    @media (min-width: $tablet-portrait-upper-boundary) { @content; }
+  } @else if $range == desktop-up {
+    @media (min-width: $tablet-landscape-upper-boundary) { @content; }
+  } @else if $range == big-desktop-up {
+    @media (min-width: $desktop-upper-boundary) { @content; }
+  }
+}
+
+body {
+  padding: 2em;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2 {
+  margin:0;
+}
+
+.content {
+  max-width:100%;
+}
+
+.sighting {
+
+
+  &:hover > .index {
+    background-color: #F5F5F5;
+  }
+
+  .index {
+    display: flex;
+    border: 1px solid #D6D6D6;
+    padding: .5em;
+    margin-bottom: .5em;
+
+    .aindex {
+      flex: 1 1%;
+      order: 0;
+
+      div {
+        padding: 0.5em;
+        border: 1px solid;
+        margin-top: 0.5em;
+        font-weight: bold;
+      }
+    }
+
+    .trend {
+      flex: 1 1%;
+      order: 1;
+      text-align: center;
+      margin:0 .5em 0 .5em;
+
+      &.up {
+        > .el-icon-caret-bottom {
+          color: #D6D6D6;
+        }
+      }
+
+      &.down {
+        > .el-icon-caret-top {
+          color: #D6D6D6;
+        }
+      }
+    }
+
+    .thumbnail {
+      flex: 1 5%;
+      order: 2;
+      text-align: center;
+      max-height: 50px;
+      overflow: hidden;
+      margin: 0 .5em 0 .5em;
+
+      @include for-size(phone-only) {
+        display: none;
+      }
+    }
+
+    .headline {
+      flex: 1 93%;
+      order: 3;
+
+
+    }
+
+    .byline {
+      flex: 1 100%;
+      font-size: .75em;
+      margin-top: .15em;
+    }
+
+    .detail_content {
+      visibility: hidden;
+      xdisplay:none;
+      position: absolute;
+      margin-right: -1em;
+      order: 3;
+    }
+
+    .detail_content.on {
+      visibility: visible;
+      xdisplay:block;
+      position: relative;
+      margin-right: 0;
+    }
+
+    footer {
+      order: 4;
+      font-size: .65em;
+      margin-top: .15em;
+
+      ul {
+          margin: 0;
+          padding: 0;
+
+        li {
+          list-style: none;
+          display: inline-flex;
+        }
+
+      }
+
+    }
+
+  }
+
+  .details {
+    margin: .5em 0 .25em 0;
+    display: flex;
+    flex-flow: wrap;
+
+    .description {
+      margin-bottom:.5em;
+    }
+
+    .col {
+      vertical-align: top;
+    }
+
+    .col1 {
+      flex: 1 auto;
+      max-width: 49.5%;
+      margin-right:.75em;
+
+      @include for-size(phone-only) {
+        max-width: 100%;
+      }
+
+      &.description {
+        display: none;
+      }
+    }
+
+    .col2 {
+      flex: 1 auto;
+      max-width: 49.5%;
+      display: flex;
+      flex-flow: column;
+
+      @include for-size(phone-only) {
+        display: none;
+        max-width: 100%;
+      }
+
+    }
+
+
+    .img {
+      max-height: 600px;
+      width:auto;
+      max-width: 100%;
+    }
+
+    .keywords {
+      font-size: .85em;
+      margin-bottom: 1em;
+    }
+
+
+
+    .analysis {
+      flex: 1 auto;
+    }
+
+    .tabs {
+      margin-bottom: .75em;
+    }
+
+    .tab-info {
+      padding:10px
+    }
+
+
+
+    .text-analysis {
+      border: 1px solid #D6D6D6;
+      margin-bottom:.5em;
+      background-color: #fff;
+      padding: .5em;
+
+
+    }
+
+    .concordance {
+      position: relative;
+
+
+      div {
+        position: relative;
+        min-height:12em;
+        overflow:hidden;
+
+        pre {
+          position: absolute;
+          font-size: medium;
+          margin:0;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+      }
+
+    }
+
+    .graph {
+      xmin-height: 300px;
+      xwidth: 100px;
+    }
+
+    .tpane {
+      visibility: hidden;
+      &.on {
+        visibility: visible;
+      }
+    }
+
+  }
+}
