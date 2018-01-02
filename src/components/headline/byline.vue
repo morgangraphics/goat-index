@@ -27,6 +27,7 @@ export default {
      */
     handleArticle(id) {
       this.$emit('articleID', id);
+      this.$store.commit('cleanUpTables');
       this.$store.commit('setArticleVisibility', id);
     },
   },
@@ -40,6 +41,7 @@ export default {
 
   },
   ...mapMutations([
+    'cleanUpTables',
     'setArticleVisibility',
   ]),
 };
