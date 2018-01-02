@@ -1,0 +1,11 @@
+{
+  "mg" : {
+    "name": "MORGANGRAPHICS, INC"
+  },
+  "development": {
+    "foo": "bar"
+  },
+  "production": {
+    "foo": "bar"
+  }
+}

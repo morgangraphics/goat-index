@@ -1,0 +1,8 @@
+#Ignore this stuff
+
+#Node Modules
+node_modules
+
+# .env & default.json files
+.env
+default.json
