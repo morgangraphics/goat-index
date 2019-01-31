@@ -24,7 +24,6 @@
     </article>
 
 </div>
-
 </template>
 
 <script>
