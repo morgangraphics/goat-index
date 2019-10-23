@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import 'element-ui/lib/theme-chalk/index.css';
 import demo from './components/demo';
 
 export default {
